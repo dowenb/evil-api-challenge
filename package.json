@@ -4,19 +4,17 @@
   "description": "API Challenge solution",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dowenb/evil-api-challenge.git"
   },
   "keywords": [
-    "evil",
+    "evil tester",
     "tester",
-    "api",
-    "test",
-    "automation",
-    "test",
+    "api test",
+    "test automation",
     "challenge"
   ],
   "author": "Ben Dowen",
@@ -26,6 +24,12 @@
   },
   "homepage": "https://github.com/dowenb/evil-api-challenge#readme",
   "devDependencies": {
-    "jest": "^27.4.5"
+    "@types/supertest": "^2.0.11",
+    "jest": "^27.4.5",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0"
   }
 }
