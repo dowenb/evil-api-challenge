@@ -1,0 +1,31 @@
+{
+  "name": "evil-api-challenge",
+  "version": "1.0.0",
+  "description": "API Challenge solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dowenb/evil-api-challenge.git"
+  },
+  "keywords": [
+    "evil",
+    "tester",
+    "api",
+    "test",
+    "automation",
+    "test",
+    "challenge"
+  ],
+  "author": "Ben Dowen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dowenb/evil-api-challenge/issues"
+  },
+  "homepage": "https://github.com/dowenb/evil-api-challenge#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
